@@ -1,0 +1,74 @@
+insert into books ( title, genre, price, available ) values ( 'Seven Ancient Wonders', 'Action/Thriller', 500, 10);
+insert into books ( title, genre, price, available ) values ( 'Six Sacred Stones', 'Action/Thriller', 600, 10);
+insert into books ( title, genre, price, available ) values ( 'The Five Greatest Warriors', 'Action/Thriller', 550, 10);
+insert into books ( title, genre, price, available ) values ( 'The Four Legendary Kingdoms', 'Action/Thriller', 650, 10);
+insert into books ( title, genre, price, available ) values ( 'The Three Secret Cities', 'Action/Thriller', 750, 10);
+insert into books ( title, genre, price, available ) values ( "The Philosopher's Stone", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Prisoner of Azkaban", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Chamber of Secrets", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Goblet of Fire", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Half-Blood Prince", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Order of The Phoenix", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "The Deathly Hallows", 'Fantasy/Adventure', 500, 10);
+insert into books ( title, genre, price, available ) values ( "Sapiens", 'History/Science', 800, 10);
+insert into books ( title, genre, price, available ) values ( "Kane and Abel", 'Fiction', 550, 10);
+insert into books ( title, genre, price, available ) values ( "The Lightning Thief", 'Fantasy/Adventure', 350, 10);
+
+insert into author ( name ) values ( 'Matthew Reilly' );
+insert into author ( name ) values ( 'J.K. Rowling' );
+insert into author ( name ) values ( 'Yuval Noah Harari' );
+insert into author ( name ) values ( 'Jeffery Archer' );
+insert into author ( name ) values ( 'Rick Riordan' );
+
+insert into librarian ( name, salary ) values ( 'Rohan Sharma', 15000 );
+insert into librarian ( name, salary ) values ( 'Aryan Raman', 20000 );
+insert into librarian ( name, salary ) values ( 'Dhananjay Vaid', 10000 );
+insert into librarian ( name, salary ) values ( 'Sarthak Goop', 12500 );
+insert into librarian ( name, salary ) values ( 'Ayush Puri', 17500 );
+
+insert into publisher ( name ) values ( 'Penguin' );
+insert into publisher ( name ) values ( 'Hachette' );
+insert into publisher ( name ) values ( 'Macmillan' );
+insert into publisher ( name ) values ( 'HarperCollins' );
+insert into publisher ( name ) values ( 'Simon & Schuster' );
+
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Bruce Springsteen', 8594003452, 'Bronze', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Hans Zimmer', 8594007652, 'Silver', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Bon Jovi', 8594003852, 'Gold', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Stevie Wonder', 8594119452, 'Silver', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'John Denver', 8446003452, 'Bronze', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Jonathan Young', 9894003452, 'Silver', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Eric Clapton', 8765003452, 'Gold', 0 );
+insert into member ( name, phone, membership_level, total_issued ) values ( 'Howard Shore', 7794003452, 'Silver', 0 );
+
+insert into writen values ( 1, 1 );
+insert into writen values ( 2, 1 );
+insert into writen values ( 3, 1 );
+insert into writen values ( 4, 1 );
+insert into writen values ( 5, 1 );
+insert into writen values ( 6, 2 );
+insert into writen values ( 7, 2 );
+insert into writen values ( 8, 2 );
+insert into writen values ( 9, 2 );
+insert into writen values ( 10, 2 );
+insert into writen values ( 11, 2 );
+insert into writen values ( 12, 2 );
+insert into writen values ( 13, 3 );
+insert into writen values ( 14, 4 );
+insert into writen values ( 15, 5 );
+
+insert into published values ( 1, 1, 1 );
+insert into published values ( 2, 2, 1 );
+insert into published values ( 3, 3, 1 );
+insert into published values ( 4, 4, 1 );
+insert into published values ( 5, 5, 1 );
+insert into published values ( 1, 6, 2 );
+insert into published values ( 2, 7, 2 );
+insert into published values ( 3, 8, 2 );
+insert into published values ( 4, 9, 2 );
+insert into published values ( 5, 10, 2 );
+insert into published values ( 1, 11, 2 );
+insert into published values ( 2, 12, 2 );
+insert into published values ( 3, 13, 3 );
+insert into published values ( 4, 14, 4 );
+insert into published values ( 5, 15, 5 );
